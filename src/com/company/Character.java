@@ -4,14 +4,18 @@ public class Character {
 
     private String name;
     private Integer health;
-    private Integer hitpoints;
+    private Integer hitPoints;
 
 
-    public Character(String name, Integer health, Integer hitpoints) {
+    public Character(String name, Integer health, Integer hitPoints) {
         this.name=name;
         this.health=health;
-        this.hitpoints=hitpoints;
+        this.hitPoints =hitPoints;
 
+    }
+
+    public String name(){
+        return this.name;
     }
 
 

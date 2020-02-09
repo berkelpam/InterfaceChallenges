@@ -28,6 +28,20 @@ public class Main {
 // simulate getting values from a file – this allows you to type as many values as your class
 // requires, and returns an ArrayList.
 // There is a whole Java I/O section later in the course where you will get to use files, etc.
+
+
+        Sword sword;
+        sword=new Sword("simpleSword",20,0,false);
+
+        Player paul;
+        paul= new Player("Paul",100,100);
+        System.out.println(paul.isArmed());
+        paul.pickUpWeapon(sword);
+
+        System.out.println(paul.isArmedWith());
+
+
+
     }
 
 

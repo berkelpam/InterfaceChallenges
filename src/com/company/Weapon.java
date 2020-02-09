@@ -14,5 +14,15 @@ public class Weapon {
         this.damaged=0;
     }
 
+    public String name() {
+        return name;
+    }
 
+    public Integer hitpoints() {
+        return hitpoints;
+    }
+
+    public Integer damaged() {
+        return damaged;
+    }
 }
